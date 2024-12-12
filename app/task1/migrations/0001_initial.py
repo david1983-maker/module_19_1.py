@@ -29,8 +29,7 @@ class Migration(migrations.Migration):
                 ('size', models.DecimalField(decimal_places=2, max_digits=100)),
                 ('description', models.TextField()),
                 ('age_limited', models.BooleanField(default=False)),
-                ('DecimalField', models.DecimalField(decimal_places=2, max_digits=100)),
-                ('BooleanField', models.BooleanField(default=False)),
+               
                 ('buyer', models.ManyToManyField(related_name='gamers', to='task1.buyer')),
             ],
         ),
